@@ -24,10 +24,10 @@ public class LibraryGUI extends JFrame {
         add(usernameField);
         add(passLabel);
         add(passwordField);
-        add(new JLabel()); // Empty space
+        add(new JLabel());
         add(loginButton);
 
-        // Login Button Click Event
+  
         loginButton.addActionListener(e -> {
             String username = usernameField.getText();
             String password = new String(passwordField.getPassword());
